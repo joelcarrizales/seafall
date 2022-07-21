@@ -12,7 +12,7 @@ class App extends React.Component {
   }
  
   receiveMessage = () => {
-    fetch('/messageservice')
+    fetch('/seafall')
     .then(res => res.json())
     .then(message => this.setState({ message }));
   }
